@@ -1,1 +1,10 @@
+import matplotlib.pyplot as plt
 
+students = ["Student A", "Student B", "Student C", "Student D"]
+scores = [78, 85, 92, 88]
+
+plt.bar(students, scores)
+plt.xlabel("Students")
+plt.ylabel("Scores")
+plt.title("Student Scores Visualization")
+plt.show()
